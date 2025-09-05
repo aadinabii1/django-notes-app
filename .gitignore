@@ -24,3 +24,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore MySQL data folder to fix permission errors during Docker build
+data/
